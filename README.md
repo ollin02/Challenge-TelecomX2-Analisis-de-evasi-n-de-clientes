@@ -76,7 +76,7 @@ Con esta información, TelecomX puede diseñar estrategias proactivas que fortal
 A continuación se presentan las gráficas que respaldan las conclusiones sobre las variables más relevantes en la predicción de la cancelación de clientes:
 
 ### 1. Tenure vs Churn (Predicho)
-![Tenure](informe_Tenure_vs_Churn_Predicho.png)
+![Tenure]([informe_Tenure_vs_Churn_Predicho.png](https://github.com/ollin02/Challenge-TelecomX2-Analisis-de-evasi-n-de-clientes/blob/main/Imagenes/Cargos_vs_Churn_Predicho.png?raw=true))
 
 ### 2. Cargos Mensuales vs Churn (Predicho)
 ![Cargos](informe_Cargos_vs_Churn_Predicho.png)
