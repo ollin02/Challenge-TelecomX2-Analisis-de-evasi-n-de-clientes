@@ -1,14 +1,15 @@
+
 # 📊 Informe Final: Análisis de Cancelación de Clientes - TelecomX
 
 ## 1. Objetivo
-El presente análisis tiene como propósito predecir la cancelación (churn (cancelación del cliente)) de clientes de TelecomX mediante modelos de machine learning y análisis estadístico, con el fin de identificar patrones que permitan implementar estrategias de retención efectivas.
+El presente análisis tiene como propósito predecir la cancelación (churn) de clientes de TelecomX mediante modelos de machine learning y análisis estadístico, con el fin de identificar patrones que permitan implementar estrategias de retención efectivas.
 
 ---
 
 ## 2. Metodología
 Se utilizaron modelos de clasificación para predecir si un cliente cancelará su servicio. Se realizaron las siguientes etapas:
 - Preprocesamiento: limpieza de datos, codificación de variables categóricas y normalización.
-- Análisis exploratorio: visualización de correlaciones y patrones por churn (cancelación del cliente).
+- Análisis exploratorio: visualización de correlaciones y patrones por churn.
 - Balanceo de clases con SMOTE.
 - Entrenamiento de modelos: Regresión Logística, Árbol de Decisión, Random Forest, KNN, Red Neuronal.
 - Evaluación con métricas: precisión, recall, F1-score y matriz de confusión.
@@ -34,9 +35,9 @@ Los modelos identificaron consistentemente las siguientes variables como más re
 
 - **Tipo de contrato**: Los contratos mensuales están más asociados con la cancelación.
 - **Tenure (meses como cliente)**: Los clientes recientes cancelan con mayor frecuencia.
-- **Cargos mensuales**: Cargos más altos están correlacionados con churn (cancelación del cliente).
-- **Soporte técnico y seguridad en línea**: La falta de servicios adicionales está vinculada a mayor churn (cancelación del cliente).
-- **Método de pago**: Pagos electrónicos automáticos están menos asociados al churn (cancelación del cliente).
+- **Cargos mensuales**: Cargos más altos están correlacionados con churn.
+- **Soporte técnico y seguridad en línea**: La falta de servicios adicionales está vinculada a mayor churn.
+- **Método de pago**: Pagos electrónicos automáticos están menos asociados al churn.
 
 ---
 
@@ -67,3 +68,24 @@ El modelo de **Random Forest** fue el más robusto para predecir la cancelación
 Con esta información, TelecomX puede diseñar estrategias proactivas que fortalezcan la retención y mejoren la experiencia del cliente.
 
 ---
+
+
+
+## 📷 Visualización de Variables Clave en la Cancelación (Churn)
+
+A continuación se presentan las gráficas que respaldan las conclusiones sobre las variables más relevantes en la predicción de la cancelación de clientes:
+
+### 1. Tenure vs Churn (Predicho)
+![Tenure](informe_Tenure_vs_Churn_Predicho.png)
+
+### 2. Cargos Mensuales vs Churn (Predicho)
+![Cargos](informe_Cargos_vs_Churn_Predicho.png)
+
+### 3. Tipo de Contrato vs Churn (Predicho)
+![Contrato](informe_Contrato_vs_Churn_Predicho.png)
+
+### 4. Soporte Técnico vs Churn (Predicho)
+![TechSupport](informe_TechSupport_vs_Churn_Predicho.png)
+
+### 5. Método de Pago vs Churn (Predicho)
+![MetodoPago](informe_MetodoPago_vs_Churn_Predicho.png)
