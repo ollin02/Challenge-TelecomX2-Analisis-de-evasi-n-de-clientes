@@ -1,15 +1,14 @@
-
 # 📊 Informe Final: Análisis de Cancelación de Clientes - TelecomX
 
 ## 1. Objetivo
-El presente análisis tiene como propósito predecir la cancelación (churn) de clientes de TelecomX mediante modelos de machine learning y análisis estadístico, con el fin de identificar patrones que permitan implementar estrategias de retención efectivas.
+El presente análisis tiene como propósito predecir la cancelación (churn (cancelación del cliente)) de clientes de TelecomX mediante modelos de machine learning y análisis estadístico, con el fin de identificar patrones que permitan implementar estrategias de retención efectivas.
 
 ---
 
 ## 2. Metodología
 Se utilizaron modelos de clasificación para predecir si un cliente cancelará su servicio. Se realizaron las siguientes etapas:
 - Preprocesamiento: limpieza de datos, codificación de variables categóricas y normalización.
-- Análisis exploratorio: visualización de correlaciones y patrones por churn.
+- Análisis exploratorio: visualización de correlaciones y patrones por churn (cancelación del cliente).
 - Balanceo de clases con SMOTE.
 - Entrenamiento de modelos: Regresión Logística, Árbol de Decisión, Random Forest, KNN, Red Neuronal.
 - Evaluación con métricas: precisión, recall, F1-score y matriz de confusión.
@@ -35,9 +34,9 @@ Los modelos identificaron consistentemente las siguientes variables como más re
 
 - **Tipo de contrato**: Los contratos mensuales están más asociados con la cancelación.
 - **Tenure (meses como cliente)**: Los clientes recientes cancelan con mayor frecuencia.
-- **Cargos mensuales**: Cargos más altos están correlacionados con churn.
-- **Soporte técnico y seguridad en línea**: La falta de servicios adicionales está vinculada a mayor churn.
-- **Método de pago**: Pagos electrónicos automáticos están menos asociados al churn.
+- **Cargos mensuales**: Cargos más altos están correlacionados con churn (cancelación del cliente).
+- **Soporte técnico y seguridad en línea**: La falta de servicios adicionales está vinculada a mayor churn (cancelación del cliente).
+- **Método de pago**: Pagos electrónicos automáticos están menos asociados al churn (cancelación del cliente).
 
 ---
 
