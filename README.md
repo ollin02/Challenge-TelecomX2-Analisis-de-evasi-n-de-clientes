@@ -20,11 +20,11 @@ Se utilizaron modelos de clasificación para predecir si un cliente cancelará s
 
 | Modelo              | Exactitud | Precisión | Recall | F1-score |
 |---------------------|-----------|-----------|--------|----------|
-| **Random Forest**    | ⭐ Mayor rendimiento en todas las métricas. |
-| Red Neuronal         | Buen desempeño general, balanceado. |
-| Árbol de Decisión    | Ligeramente sobreajustado. |
-| KNN                 | Menor recall, pero aceptable con normalización. |
-| Baseline            | Sirve como referencia (muy bajo rendimiento). |
+| **Random Forest**    | ⭐ Mayor rendimiento en todas las métricas. (0.794605) | 0.643735 | 0.475499 | 0.546973 |
+| Red Neuronal         | Buen desempeño general, balanceado. (0.793185) | 0.621277 | 0.529946 | 0.571988 |
+| Árbol de Decisión    | Ligeramente sobreajustado. (0.791292) | 0.651099 | 0.430127 | 0.518033 |
+| KNN                 | Menor recall, pero aceptable con normalización. (0.760530)| 0.542533 | 0.520871 | 0.531481 |
+| Baseline            | Sirve como referencia (muy bajo rendimiento). (0.739233)| 0.000000 | 0.000000 | 0.000000 |
 
 ---
 
