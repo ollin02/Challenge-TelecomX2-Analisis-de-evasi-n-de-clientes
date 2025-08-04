@@ -61,6 +61,25 @@ Los modelos identificaron consistentemente las siguientes variables como más re
 
 ---
 
+## 📷 Visualización de Variables Clave en la Cancelación (Churn)
+
+A continuación se presentan las gráficas que respaldan las conclusiones sobre las variables más relevantes en la predicción de la cancelación de clientes:
+
+### 1. Tenure vs Churn (Predicho)
+![Tenure](https://github.com/ollin02/Challenge-TelecomX2-Analisis-de-evasi-n-de-clientes/blob/main/Imagenes/Cargos_vs_Churn_Predicho.png)
+
+### 2. Cargos Mensuales vs Churn (Predicho)
+![Cargos](https://github.com/ollin02/Challenge-TelecomX2-Analisis-de-evasi-n-de-clientes/blob/main/Imagenes/Tenure_vs_Churn_Predicho.png)
+
+### 3. Tipo de Contrato vs Churn (Predicho)
+![Contrato](https://github.com/ollin02/Challenge-TelecomX2-Analisis-de-evasi-n-de-clientes/blob/main/Imagenes/Contrato_vs_Churn_Predicho.png)
+
+### 4. Soporte Técnico vs Churn (Predicho)
+![TechSupport](https://github.com/ollin02/Challenge-TelecomX2-Analisis-de-evasi-n-de-clientes/blob/main/Imagenes/TechSupport_vs_Churn_Predicho.png)
+
+### 5. Método de Pago vs Churn (Predicho)
+![MetodoPago](https://github.com/ollin02/Challenge-TelecomX2-Analisis-de-evasi-n-de-clientes/blob/main/Imagenes/MetodoPago_vs_Churn_Predicho.png)
+
 ## 6. Conclusión
 
 El modelo de **Random Forest** fue el más robusto para predecir la cancelación de clientes. Las variables relacionadas con el tiempo de permanencia, servicios contratados y forma de pago resultan claves para anticipar la evasión.
@@ -68,24 +87,3 @@ El modelo de **Random Forest** fue el más robusto para predecir la cancelación
 Con esta información, TelecomX puede diseñar estrategias proactivas que fortalezcan la retención y mejoren la experiencia del cliente.
 
 ---
-
-
-
-## 📷 Visualización de Variables Clave en la Cancelación (Churn)
-
-A continuación se presentan las gráficas que respaldan las conclusiones sobre las variables más relevantes en la predicción de la cancelación de clientes:
-
-### 1. Tenure vs Churn (Predicho)
-![Tenure]([informe_Tenure_vs_Churn_Predicho.png](https://github.com/ollin02/Challenge-TelecomX2-Analisis-de-evasi-n-de-clientes/blob/main/Imagenes/Cargos_vs_Churn_Predicho.png?raw=true))
-
-### 2. Cargos Mensuales vs Churn (Predicho)
-![Cargos](informe_Cargos_vs_Churn_Predicho.png)
-
-### 3. Tipo de Contrato vs Churn (Predicho)
-![Contrato](informe_Contrato_vs_Churn_Predicho.png)
-
-### 4. Soporte Técnico vs Churn (Predicho)
-![TechSupport](informe_TechSupport_vs_Churn_Predicho.png)
-
-### 5. Método de Pago vs Churn (Predicho)
-![MetodoPago](informe_MetodoPago_vs_Churn_Predicho.png)
