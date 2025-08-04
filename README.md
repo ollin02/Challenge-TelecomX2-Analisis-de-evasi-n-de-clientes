@@ -59,8 +59,6 @@ Los modelos identificaron consistentemente las siguientes variables como más re
 5. **Automatización del pago**:
    - Promover el uso de débito automático ofreciendo beneficios (descuentos o prioridad de atención).
 
----
-
 ## 📷 Visualización de Variables Clave en la Cancelación (Churn)
 
 A continuación se presentan las gráficas que respaldan las conclusiones sobre las variables más relevantes en la predicción de la cancelación de clientes:
@@ -79,6 +77,51 @@ A continuación se presentan las gráficas que respaldan las conclusiones sobre 
 
 ### 5. Método de Pago vs Churn (Predicho)
 ![MetodoPago](https://github.com/ollin02/Challenge-TelecomX2-Analisis-de-evasi-n-de-clientes/blob/main/Imagenes/MetodoPago_vs_Churn_Predicho.png)
+
+
+## 🎯 Respuestas Estratégicas Clave
+
+### ¿Quiénes son los clientes con mayor riesgo de evasión (churn)?
+Los clientes con mayor probabilidad de cancelar sus servicios (churn) son:
+
+- **Clientes con contratos mensuales**, lo que les permite cambiar de proveedor sin penalización.
+- **Clientes recientes** (bajo `Tenure`), quienes aún no han generado lealtad hacia la empresa.
+- **Usuarios con cargos mensuales altos**, posiblemente perciben un bajo valor por el costo.
+- **Clientes que no utilizan servicios adicionales** como soporte técnico o seguridad en línea.
+- **Clientes que no tienen automatizado su método de pago**, lo que puede reflejar menor compromiso o comodidad con el servicio.
+
+---
+
+### ¿Qué variables influyen más en ese comportamiento?
+Según la importancia de variables extraída de los modelos más robustos (especialmente Random Forest y Redes Neuronales), las variables más influyentes son:
+
+| Variable           | Descripción                                                               |
+|--------------------|---------------------------------------------------------------------------|
+| `Contract`         | Tipo de contrato: los contratos mensuales tienen más cancelaciones.       |
+| `Tenure`           | Tiempo como cliente: a menor tiempo, mayor churn.                         |
+| `Charges.Monthly`  | Cargos mensuales: a mayor monto, mayor riesgo de cancelación.             |
+| `TechSupport`      | Soporte técnico: su ausencia se asocia a mayor evasión.                   |
+| `PaymentMethod`    | Método de pago: automatización se relaciona con menor churn.              |
+
+Estas variables fueron visualizadas en las gráficas que sustentan esta conclusión (ver sección 6 del informe).
+
+---
+
+### ¿Qué perfil de cliente debemos cuidar con mayor atención?
+El perfil de cliente con mayor riesgo y que merece mayor atención incluye:
+
+- Nuevos clientes con menos de 1 año en la empresa (`Tenure` bajo).
+- Contratos **mensuales**.
+- Gasto mensual elevado.
+- Sin servicios como **soporte técnico** o **seguridad en línea**.
+- Que pagan mediante **métodos manuales** (no automáticos).
+
+📌 **Estrategias sugeridas**:
+- **Migrar a contratos anuales** mediante incentivos.
+- **Ofrecer soporte técnico gratuito o con descuento** como valor agregado.
+- **Promover pagos automáticos** con beneficios como descuentos o atención preferencial.
+
+---
 
 ## 6. Conclusión
 
